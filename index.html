@@ -1,0 +1,544 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="./resources/MEDIA/images/Coffee.ico">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./resources/CSS/DEFAULT.css" />
+    <link rel="stylesheet" href="./resources/CSS/BACKGROUND.css" />
+    <link rel="stylesheet" href="./resources/CSS/unidad12.css" />
+    <link rel="stylesheet" href="./resources/CSS/BUTTONS.css" />
+    <link rel="stylesheet" href="./resources/CSS/GLASS.css" />
+
+    <title>Unidad 12</title>
+  </head>
+  <body>
+    <main>
+      <div class="ALL">
+
+
+        <!--//NAV-->
+        <nav class="FXglass">
+          <a class="BTNs_a" href="#">
+            <button
+              class="BTNs FXbtn"
+              role="button"
+              onmouseenter="navsound.play()"
+            >
+              INICIO
+            </button>
+          </a>
+          <a class="BTNs_a" href="#SEC2">
+            <button
+              class="BTNs FXbtn"
+              role="button"
+              onmouseenter="navsound.play()"
+            >
+              NOSOTROS
+            </button>
+          </a>
+          <a class="BTNs_a" href="#SEC3">
+            <button
+              class="BTNs FXbtn"
+              role="button"
+              onmouseenter="navsound.play()"
+            >
+              GALERIA
+            </button>
+          </a>
+          <a class="BTNs_a" href="#SEC4">
+            <button
+              class="BTNs FXbtn"
+              role="button"
+              onmouseenter="navsound.play()"
+            >
+              PRODUCTOS
+            </button>
+          </a>
+          <a class="BTNs_a" href="#SEC5">
+            <button
+              class="BTNs FXbtn"
+              role="button"
+              onmouseenter="navsound.play()"
+            >
+              REGISTRO
+            </button>
+          </a>
+          <a class="BTNs_a" href="#SEC6">
+            <button
+              class="BTNs FXbtn"
+              role="button"
+              onmouseenter="navsound.play()"
+            >
+              BENEFICIOS
+            </button>
+          </a>
+          <a class="BTNs_a" href="#SEC7">
+            <button
+              class="BTNs FXbtn"
+              role="button"
+              onmouseenter="navsound.play()"
+            >
+              CONTACTO
+            </button>
+          </a>
+          
+        </nav>
+        <div id="separator"></div>
+        <!--NAV//-->
+
+
+        <!--//SECCION1-->
+        <section id="SEC1" class="S1 FXglass">
+          <div class="S1backgroud"></div>
+          <div class="SEC1Logo">
+            <div><img src="./resources/MEDIA/images/LOGO.png" /></div>
+            <div><span id="LGP1">DELGADO</span></div>
+            <div><span id="LGP2">DISTRIBUTOR & COFFEE BAR</span></div>
+            <p></p>
+            <p></p>
+            <script src="./resources/JS/Frases.js">
+              mostrarFrases()
+            </script>
+          </div>
+        </section>
+        <!--SECCION1//-->
+
+
+        <!--//SECCION2-->
+        <section id="SEC2" class="S2 FXglass">
+          
+          <div class="TXT FXglass2">
+          <div class="TXTwho ">
+            
+            <h2>¿Quienes Somos?</h2>
+            <p>
+              Somos una empresa dedicada a la comercialización de café tostado y
+              molido. Fundada por un solido equipo humano con amplia experiencia
+              en el negocio del café.
+            </p>
+            <p>
+              Nuestro café es producido en zonas cafetaleras que ofrecen
+              condiciones ideales para su producción y procesado y producido
+              además en una variedad de microclimas que le confieren aquellas
+              características y cualidades distintivas de cada región.
+            </p>
+            <p>
+              En Cafés Delgado nos regimos por un código de ética y valores que
+              nos caracteriza en la relación con los clientes y colaboradores,
+              manteniendo una profesional relación de confidencialidad.
+            </p>
+            <p>
+              Somos una empresa integral, comprometida con nuestra calidad y con
+              nuestras responsabilidades sociales y medio ambientales.
+            </p>
+          </div>
+        </div>
+        </section>
+        <!--SECCION2//-->
+
+
+        <!--//SECCION3-->
+        <section id="SEC3" class="S3 FXglass">
+          <div class="container carrusel">
+            <div
+              id="carouselExampleControls"
+              class="carousel slide"
+              data-bs-ride="carousel"
+            >
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img
+                    src="./resources/MEDIA/images/SEC3img2.jpg"
+                    class="w-100"
+                    alt=""
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="./resources/MEDIA/images/SEC3img3.jpg"
+                    class="w-100"
+                    alt=""
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="./resources/MEDIA/images/SEC3img4.jpg"
+                    class="w-100"
+                    alt=""
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="./resources/MEDIA/images/SEC3img1.webp"
+                    class="w-100"
+                    alt=""
+                  />
+                </div>
+              </div>
+              <button
+                class="carousel-control-prev"
+                type="button"
+                data-bs-target="#carouselExampleControls"
+                data-bs-slide="prev"
+              >
+                <span
+                  class="carousel-control-prev-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button
+                class="carousel-control-next"
+                type="button"
+                data-bs-target="#carouselExampleControls"
+                data-bs-slide="next"
+              >
+                <span
+                  class="carousel-control-next-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+        </section>
+        <!--SECCION3//-->
+
+
+        <!--//SECCION4-->
+        <section id="SEC4" class="S4 FXglass">
+          <div class="LISTA1">
+            <div class="item1 items FXglass2">
+              <div>
+                <h3>Café</h3>
+                <h5>FRICAF</h5>
+                <span>$3550</span>
+                <span>x unidad</span>
+              </div>
+              <img src="./resources/MEDIA/images/Products/P1.webp" />
+            </div>
+            <div class="item2 items FXglass2">
+              <div>
+                <h3>Café</h3>
+                <h5>FRICAF</h5>
+                <span>$3450</span>
+                <span>x unidad</span>
+              </div>
+              <img src="./resources/MEDIA/images/Products/P2.webp" />
+            </div>
+            <div class="item3 items FXglass2">
+              <div>
+                <h3>Café</h3>
+                <h5>FRICAF</h5>
+                <span>$3200</span>
+                <span>x unidad</span>
+              </div>
+              <img src="./resources/MEDIA/images/Products/P3.webp" />
+            </div>
+            <div class="item4 items FXglass2">
+              <div>
+                <h3>Café</h3>
+                <h5>FRICAF</h5>
+                <span>$3500</span>
+                <span>x unidad</span>
+              </div>
+              <img src="./resources/MEDIA/images/Products/P4.webp" />
+            </div>
+            <div class="item5 items FXglass2">
+              <div>
+                <h3>Café</h3>
+                <h5>FRICAF</h5>
+                <span>$3580</span>
+                <span>x unidad</span>
+              </div>
+              <img src="./resources/MEDIA/images/Products/P5.webp" />
+            </div>
+            <div class="item6 items FXglass2">
+              <div>
+                <h3>Café</h3>
+                <h5>FRICAF</h5>
+                <span>$3400</span>
+                <span>x unidad</span>
+              </div>
+              <img src="./resources/MEDIA/images/Products/P6.webp" />
+            </div>
+            <div class="item7 items FXglass2">
+              <div>
+                <h3>Café</h3>
+                <h5>SEGAFREDO</h5>
+                <span>$2500</span>
+                <span>x unidad</span>
+              </div>
+              <img src="./resources/MEDIA/images/Products/P7.webp" />
+            </div>
+            <div class="item8 items FXglass2">
+              <div>
+                <h3>Café</h3>
+                <h5>FUNDADOR</h5>
+                <span>$2800</span>
+                <span>x unidad</span>
+              </div>
+              <img src="./resources/MEDIA/images/Products/P8.webp" />
+            </div>
+            <div class="item9 items FXglass2">
+              <div>
+                <h3>Café</h3>
+                <h5>MARTINEZ</h5>
+                <span>$2900</span>
+                <span>x unidad</span>
+              </div>
+              <img src="./resources/MEDIA/images/Products/P9.webp" />
+            </div>
+          </div>
+        </section>
+        <!--SECCION4//-->
+
+
+        <!--//SECCION5-->
+        <section id="SEC5" class="S5 FXglass">
+          <div class="container Form FXglass2 ">
+            <p class="fs-2 mt-3 mx-5 fw-bold">Formulario de Subcripción a Ofertas</p>
+            <form class="row g-3 mx-5">
+              <div class="col-6">
+                <label for="InputSurname" class="form-label">Apellido</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="InputSurname"
+                  placeholder="Escribe Tu Apellido"
+                  required
+                  
+                />
+              </div>
+
+              <div class="col-6">
+                <label for="InputName" class="form-label">Nombre</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="InputName"
+                  placeholder="Escribe tu Nombre"
+                  required
+                />
+              </div>
+
+              <div class="col-12">
+                <label for="inputEmail" class="form-label">Email</label>
+                <input
+                  type="email"
+                  class="form-control"
+                  id="inputEmail"
+                  placeholder="Escribe Tu Email"
+                  required
+                />
+              </div>
+
+              <div class="col-6">
+                <label for="inputCity" class="form-label">Ciudad</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="inputCity"
+                  placeholder="Escribe Tu Ciudad"
+                  required
+                />
+              </div>
+
+              <div class="col-3">
+                <label for="inputPostal" class="form-label">
+                  Codigo Postal
+                </label>
+                <input
+                  type="number"
+                  class="form-control"
+                  id="inputPostal"
+                  placeholder="Escribe Tu Codigo Postal"
+                  required
+                />
+              </div>
+
+              <div class="col-3">
+                <label for="inputCountry" class="form-label">Pais</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="inputCountry"
+                  placeholder="Escribe Tu Pais"
+                  required
+                />
+              </div>
+
+              <div class="col-12">
+                <div class="form-check">
+                  <input
+                    id="inputCheck"
+                    type="checkbox"
+                    class="form-check-input"
+                    required
+                  />
+                  <label for="inputCheck" class="form-check-label">
+                    Acepto los Terminos y Condiciones
+                  </label>
+                </div>
+              </div>
+
+              <div class="col-12">
+                <button type="submit" class="btn btn-danger">
+                  Registrate
+                </button>
+                <button type="reset" class="btn btn-danger">Limpiar</button>
+              </div>
+            </form>
+          </div>
+        </section>
+        <!--SECCION5//-->
+
+
+        <!--//SECCION6-->
+        <section id="SEC6" class=" S6 FXglass container">
+          <div class="S6card FXglass d-flex justify-content-center align-items-center">
+
+
+          <!----------------------------------------------------------------->            
+          <div id="tarjeta1" class="card mb-3 FXglass2" style="max-width: 90%;">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="./resources/MEDIA/images/Cards/c1.jpg" class="img-fluid rounded-start" alt="...">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h2 class="card-title">Protege el corazón</h2>
+                  <p class="card-text">Aunque parezca ilógico, ese café que te gusta tomar para cargarte las pilas﻿ por la mañana ﻿o para sobrellevar﻿ una tarde aletargada ofrece beneficios para la salud del corazón. En una reseña de tres importantes investigaciones publicada recientemente en Circulation: Heart Failure se determinó que tomar al menos una taza de café negro con cafeína por día podría reducir el riesgo de insuficiencia cardíaca. (El café descafeinado, por su parte, no ﻿rindió los mismos beneficios﻿). Además, los resultados de un estudio a gran escala presentados recientemente en el congreso anual de la European Society of Cardiology sugieren que todo el sistema cardiovascular se beneficia del consumo de café. Entre las personas sin cardiopatías diagnosticadas, los investigadores descubrieron que ﻿el consumo de hasta tres tazas de café por día se asociaba con un menor riesgo de padecer un derrame cerebral o morir por una enfermedad cardiovascular, o el riesgo de muerte por cualquier causa.﻿ Para saber el porqué, se analizaron los resultados de imágenes de resonancia magnética (MRI) ﻿de más de 30,000 participantes. Las MRI mostraron que el corazón de quienes tomaban café a diario era de un ﻿tamaño más sano y funcionaba ﻿mejor﻿﻿ que el corazón de quienes no tomaban café de forma habitual﻿, si bien los expertos señalan que ﻿hacen falta más investigaciones para entender bien este vínculo.</p>
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+          <!----------------------------------------------------------------->
+
+          <!----------------------------------------------------------------->
+          <div id="tarjeta2" class="card mb-3 FXglass2" style="max-width: 90%; max-height: 90%;">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="./resources/MEDIA/images/Cards/c2.jpg" class="img-fluid rounded-start" alt="...">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h2 class="card-title">Fortalece la salud cerebral</h2>
+                  <p class="card-text">Los científicos no están muy seguros al respecto, pero algunas investigaciones han sugerido que ﻿el consumo habitual de cafeína podría﻿ brindar cierta protección. En un estudio de personas de entre 65 y 84 años publicado en Journal of Alzheimer’s Disease se registraron menores índices de problemas cognitivos leves entre quienes tomaban una o dos tazas de café por día﻿, en comparación con aquellos que raras veces o nunca tomaban café. ﻿Y otras investigaciones sugieren que el café podría ofrecer protección contra el mal de Parkinson. Pero ten cuidado con las tazas de café tomadas una tras otra. "Los datos más recientes sugieren que tomar más de ﻿cinco o seis tazas por día podría tener un efecto adverso en la salud cerebral", afirma Kirkpatrick. Los investigadores que analizaron las tomografías cerebrales de más de 17,000 personas de entre 37 y 73 años descubrieron que el consumo de al menos seis tazas de café por día guardaba un fuerte vínculo con un menor volumen cerebral total y un mayor riesgo de demencia. Los investigadores recalcan que en este estudio no se pudo confirmar la razón subyacente de este vínculo; solo se determinó que ﻿cuanto mayor era el consumo de café, más encogimiento del cerebro se revelaba en las tomografías.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!----------------------------------------------------------------->
+          
+          <!----------------------------------------------------------------->
+          <div id="tarjeta3" class="card mb-3 FXglass2" style="max-width: 90%;">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="./resources/MEDIA/images/Cards/c3.jpg" class="img-fluid rounded-start" alt="...">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h2 class="card-title">Mejora el estado de ánimo durante más tiempo de lo que te imaginas</h2>
+                  <p class="card-text">No hace falta que un experto te diga lo bien que te puede hacer sentir esa primera taza de café por la mañana. Pero tal vez no sepas que los efectos ﻿podrían ser más que fugaces. El consumo de café podría reducir en ﻿casi un ﻿tercio el riesgo de padecer depresión, según investigaciones realizadas por la Facultad de Medicina de Harvard. Este efecto podría deberse a las propiedades antiinflamatorias del café, según explica Weisenberger. "Los investigadores sospechan que tanto el café como algunos medicamentos antidepresivos reducen los niveles de inflamación en el cuerpo, lo cual podría incidir en la depresión. Además, el café contiene fitoquímicos que alimentan las bacterias buenas en el intestino. Estas bacterias podrían producir o fortalecer otros compuestos que inciden en el cerebro y mejoran el estado de ánimo". </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!----------------------------------------------------------------->
+
+          <!----------------------------------------------------------------->
+          <div id="tarjeta4" class="card mb-3 FXglass2" style="max-width: 90%;">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="./resources/MEDIA/images/Cards/c4.jpg" class="img-fluid rounded-start" alt="...">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h2 class="card-title">Contribuye de forma notable a tu sesión de ejercicios  </h2>
+                  <p class="card-text">No es tu imaginación: ﻿tomar una taza﻿ de café antes de ir al gimnasio podría mejorar tu sesión de ejercicios. ¿Por qué? El café, si se toma antes de hacer ﻿ejercicio, mejora la circulación, la resistencia y la fuerza muscular ﻿ —﻿y además, podría reducir el dolor, según una reseña de investigaciones (en inglés) publicada en el 2019 en Sports Medicine—. Sin embargo, ten en cuenta que el café puede actuar como diurético﻿. ﻿La Administración de Alimentos y Medicamentos de Estados Unidos﻿ recomienda que los amantes de la cafeína tomen más agua ﻿durante el ejercicio a fin de evitar la deshidratación, sobre todo cuando hace calor. ﻿¿Cuánto tiempo antes de hacer ejercicio se debe tomar café para optimizar los beneficios? Según la mayoría de las investigaciones, ﻿se recomienda tomar café menos de una hora antes de iniciar la sesión de ejercicios, aunque al menos un estudio indica que el café consumido media hora antes de hacer ejercicio podría promover particularmente la quema de grasa.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!----------------------------------------------------------------->
+
+
+          <!----------------------------------------------------------------->
+          <div id="tarjeta5" class="card mb-3 FXglass2" style="max-width: 90%;">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="./resources/MEDIA/images/Cards/c5.jpg" class="img-fluid rounded-start" alt="...">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h2 class="card-title">Reduce el riesgo de padecer diabetes tipo 2</h2>
+                  <p class="card-text">Esta noticia te pondrá de buen humor, sobre todo si tienes prediabetes: en una amplia reseña de trabajos de investigación publicada en la revista Nutrition Reviews se determinó que el riesgo de padecer diabetes tipo 2 se reduce en un ﻿6% por cada taza de café que se consume por día. ¿Por qué? "El café está repleto de fitoquímicos que pueden actuar como antioxidantes, compuestos antiinflamatorios y amplificadores de la sensibilidad a la insulina, entre otras cosas", dice Weisenberger. Lo mismo se puede decir del café descafeinado, "aunque este podría tener una menor concentración [de fitoquímicos] en comparación con el café normal", ﻿apunta. "Pero aun así, las personas que toman grandes cantidades de café descafeinado no dejan de obtener beneficios". Ya sea que prefieras el café con o sin cafeína, opta por un café filtrado. En un estudio publicado en Journal of Internal Medicine﻿, las personas que tomaban dos o tres tazas de café filtrado por día —a diferencia de un café sin filtrar que, por ejemplo, se vende en cápsulas o se prepara con una cafetera espresso o una prensa francesa— tuvieron un riesgo 60% menor de padecer diabetes tipo 2, en comparación con aquellos que tomaban menos de una taza de café filtrado por día. Entretanto, esta reducción del riesgo no se observó en quienes tomaban café sin filtrar﻿.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!----------------------------------------------------------------->
+
+
+          </div>
+        </section>
+        <!--SECCION6//-->
+
+        <!--//SECCION7-->
+          <section id="SEC7" class="S7 FXglass">
+            <div class="Foots FXglass2">
+            <div class="Foot1">
+              <a href="#"><p>Legal Warning</p></a>
+              <a href="#"><p>Privacy Policy</p></a>
+              <a href="#"><p>Cookies Policy</p></a>
+              <a href="#"><p>Quality Policy</p></a>
+            </div>
+            <div class="Foot2"t>
+              <a href="https://wa.me/qr/3NTKCHMFNXFGH1"    >  <img id="icon1" onmouseenter="ic1.play()" src="./resources/MEDIA/icon/phone.svg">    </a>
+              <a href="mailto:santid.prog@gmail.com">  <img id="icon2" onmouseenter="ic2.play()" src="./resources/MEDIA/icon/mail.svg">     </a>
+              <a href="https://instagram.com/esgabook">  <img id="icon3" onmouseenter="ic3.play()" src="./resources/MEDIA/icon/insta.svg">    </a>
+              <a href="https://t.me/GC_Dynamic" >  <img id="icon4" onmouseenter="ic4.play()" src="./resources/MEDIA/icon/tele.svg">     </a>
+              <a href="#whatsapp" >  <img id="icon5" onmouseenter="ic5.play()" src="./resources/MEDIA/icon/whats.svg">    </a>
+              <a href="#twitter"  >  <img id="icon6" onmouseenter="ic6.play()" src="./resources/MEDIA/icon/twitter.svg">  </a>
+             
+            </div>
+           <div class="Foot3">
+            <a href="http://santiagodelgado.com.ar/unidad12/"><p>Home</p></a>
+            <a href="#"><p>Blog</p></a>
+            <a href="#"><p>Contact</p></a>
+            <a href="#"><p>FAQs</p></a>
+           </div>
+          </div>
+          </section>
+        <!--SECCION7//-->
+        <footer class="FXglass">
+          <div class="autors FXglass2">
+            <h5>Created by Santiago Delgado</h5>
+          </div>
+        </footer>
+       
+
+
+        <script src="./resources/JS/Cards.js"></script>
+
+        <script src="./resources/JS/FXclick.js"></script>
+
+        <script
+          src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+          integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+          crossorigin="anonymous"
+        ></script>
+      </div>
+    </main>
+  </body>
+</html>
