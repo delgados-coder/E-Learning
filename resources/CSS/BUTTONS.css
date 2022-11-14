@@ -1,0 +1,19 @@
+
+.FXbtn{
+    color: white;
+    text-shadow:black 3px 2px 1px ;
+    border: none;
+    background-color: none;
+    background: rgba(0, 0, 0, 0);
+    border-radius: 50%;
+    transition: all 0.1s;
+
+    
+    }
+.FXbtn:hover{
+border: none;
+background: rgba(163, 46, 3, 0.652);
+border-radius: 2px;
+backdrop-filter: blur(10px);
+
+}

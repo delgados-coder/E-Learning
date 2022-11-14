@@ -1,0 +1,521 @@
+:root {
+  --resw1: 1024px;
+  --resw2: 960px;
+  --resh1: 650px;
+  --space: 30px;
+  --Font1: "Archivo", sans-serif;
+  --Font2: "Archivo Black", sans-serif;
+  --Font3: "Archivo Narrow", sans-serif;
+  --Color1: hsl(0, 93%, 47%);
+  --Color2: hsl(23, 100%, 43%);
+  --Color3: hsl(36, 100%, 38%);
+  --Color4: hsl(50, 100%, 34%);
+  --Color5: hsl(67, 100%, 32%);
+  --Color6: hsl(90, 52%, 47%);
+  --Color7: hsl(129, 50%, 56%);
+  --Color8: hsl(172, 100%, 44%);
+  --color9: hsl(180, 93%, 47%);
+}
+* {
+  @import url("https://fonts.googleapis.com/css2?family=Archivo+Black&family=Archivo+Narrow:ital@0;1&family=Archivo:ital,wght@0,100;1,100&display=swap");
+}
+
+body {
+  display: grid;
+  justify-content: center;
+  align-content: flex-start;
+  width: 100vw;
+}
+
+main {
+  max-width: var(--resw1);
+
+  display: grid;
+  justify-content: center;
+  align-content: flex-start;
+}
+
+.ALL {
+  max-width: var(--resw2);
+  width: var(--resw2);
+  min-height: 500px;
+  display: grid;
+  justify-content: center;
+  align-content: flex-start;
+}
+
+nav {
+  z-index: 5;
+  margin-top: 5px;
+  font-size: 20px;
+
+  width: var(--resw2);
+  height: 60px;
+  position: fixed;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  justify-items: center;
+  align-content: space-around;
+}
+
+#separator {
+  margin-top: 5px;
+  width: var(--resw2);
+  height: 60px;
+}
+
+.BTNs {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  min-width: 98%;
+  min-height: 60px;
+}
+.BTNs_a {
+  width: 98%;
+  height: 60px;
+}
+
+.S1,
+.S2,
+.S3,
+.S4,
+.S5,
+.S6 {
+  z-index: 1;
+  margin-top: var(--space);
+  width: var(--resw2);
+  height: var(--resh1);
+}
+
+/*****************************Seccion 1****************************************/
+.S1 {
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  grid-template-areas: "S1A1";
+  justify-items: center;
+  align-items: center;
+}
+.S1backgroud {
+  grid-area: S1A1;
+  width: 97%;
+  height: 96%;
+  border-radius: 15px;
+  background-image: url("../MEDIA/images/sec1.webp");
+  filter: blur(2px);
+}
+
+.SEC1Logo {
+  grid-area: S1A1;
+  z-index: 2;
+  width: 97%;
+  height: 96%;
+  background-color: rgba(0, 0, 0, 0.479);
+  box-shadow: 0 0 30px rgba(108, 1, 1, 0.653);
+  border-radius: 0%;
+  display: grid;
+  place-content: center;
+}
+
+.SEC1Logo {
+  text-align: center;
+}
+
+.SEC1Logo img {
+  z-index: 2;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  justify-self: center;
+  box-shadow: 0 0 10px 2px rgb(55, 2, 2);
+  transition: all 0.05s ease-in-out;
+}
+
+.SEC1Logo img:hover {
+  box-shadow: 0 0 40px 20px rgba(0, 0, 0, 0.658);
+}
+
+#LGP1 {
+  text-shadow: rgb(0, 0, 0) 6px 5px 3px;
+  letter-spacing: 5px;
+  font-weight: bold;
+  font-size: 5.5rem;
+  font-family: var(--Font1);
+
+  color: rgb(255, 255, 255);
+  z-index: 2;
+}
+
+#LGP2 {
+  letter-spacing: 5px;
+  text-shadow: rgb(0, 0, 0) 6px 5px 3px;
+  font-size: 2.1rem;
+  font-family: var(--Font3);
+  font-weight: lighter;
+  color: white;
+  z-index: 2;
+}
+
+#LGP1:hover,
+#LGP2:hover {
+  text-shadow: black 6px 5px 3px;
+}
+
+.frasespan {
+  text-shadow: rgb(0, 0, 0) 3px 2px 1px;
+  font-family: var(--Font2);
+  color: white;
+  font-weight: bold;
+  font-size: 1.6rem;
+}
+
+.autorspan {
+  text-shadow: rgb(0, 0, 0) 3px 2px 1px;
+  font-family: var(--Font3);
+  color: white;
+  font-size: 1rem;
+  font-weight: bolder;
+}
+/******************************************************************************/
+
+/*****************************Seccion 2****************************************/
+
+.S2 {
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  color: white;
+}
+
+.TXTwho {
+  transform: translateY(-25px);
+  width: 85%;
+  text-shadow: rgb(0, 0, 0) 3px 2px 1px;
+  display: grid;
+  justify-items: center;
+}
+
+.TXT {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90%;
+  width: 95%;
+}
+
+.TXTwho h2 {
+  font-size: 3.6rem;
+}
+.TXTwho p {
+  transform: translateY(+60px);
+  font-size: large;
+  text-align: center;
+}
+
+/******************************************************************************/
+
+/*****************************Seccion 3****************************************/
+.S3 {
+  display: grid;
+  place-content: center;
+}
+
+.carrusel {
+  width: 97%;
+  height: 98%;
+}
+
+.S3 img {
+  width: 910px;
+  height: 600px;
+  max-width: 910px;
+  max-height: 600px;
+}
+
+/******************************************************************************/
+
+/*****************************Seccion 4****************************************/
+.S4 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.LISTA1 {
+  width: 95%;
+  height: 94%;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  align-items: center;
+  justify-items: center;
+}
+
+.items {
+  justify-items: center;
+  align-content: space-around;
+  text-align: center;
+  width: 260px;
+  height: 175px;
+  display: flex;
+  align-items: center;
+}
+.items div {
+  width: 136px;
+  display: flex;
+  flex-direction: column;
+  justify-items: start;
+}
+
+.items h3 {
+  z-index: 4;
+  color: white;
+  text-shadow: rgb(0, 0, 0) 3px 2px 1px;
+}
+
+.items h5 {
+  z-index: 4;
+  color: white;
+  text-shadow: rgb(0, 0, 0) 3px 2px 1px;
+}
+
+.items span {
+  z-index: 4;
+  color: white;
+  text-shadow: rgb(0, 0, 0) 3px 2px 1px;
+}
+
+.items img {
+  z-index: 3;
+  width: 105px;
+  height: 160px;
+  object-fit: contain;
+}
+/******************************************************************************/
+
+/*****************************Seccion 5****************************************/
+.S5 {
+  display: grid;
+  place-content: center;
+}
+
+.Form {
+  width: 95%;
+  height: 580px;
+}
+
+.Form label,
+.Form p {
+  color: white;
+  text-shadow: rgb(0, 0, 0) 3px 2px 1px;
+}
+/******************************************************************************/
+
+/*****************************Seccion 5****************************************/
+.S6 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.S6card {
+  height: 90%;
+  width: 96%;
+}
+
+#tarjeta1 {
+  display: block;
+  color: white;
+  text-shadow: rgb(0, 0, 0) 3px 2px 1px;
+}
+#tarjeta2 {
+  display: none;
+  color: white;
+  text-shadow: rgb(0, 0, 0) 3px 2px 1px;
+}
+#tarjeta3 {
+  display: none;
+  color: white;
+  text-shadow: rgb(0, 0, 0) 3px 2px 1px;
+}
+#tarjeta4 {
+  display: none;
+  color: white;
+  text-shadow: rgb(0, 0, 0) 3px 2px 1px;
+}
+#tarjeta5 {
+  display: none;
+  color: white;
+  text-shadow: rgb(0, 0, 0) 3px 2px 1px;
+}
+
+#tarjeta1 img {
+  border-radius: 13px;
+}
+#tarjeta2 img {
+  border-radius: 13px;
+}
+#tarjeta3 img {
+  border-radius: 13px;
+}
+#tarjeta4 img {
+  border-radius: 13px;
+}
+#tarjeta5 img {
+  border-radius: 13px;
+}
+
+#tarjeta1 p {
+  font-size: 15px;
+}
+#tarjeta2 p {
+  font-size: 15px;
+}
+#tarjeta3 p {
+  font-size: 15px;
+}
+#tarjeta4 p {
+  font-size: 15px;
+}
+#tarjeta5 p {
+  font-size: 15px;
+}
+/******************************************************************************/
+
+/*********************************PIE DE PAGINA***************************************/
+.S7 {
+  margin-top: var(--space);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  height: 250px;
+  width: var(--resw2);
+  
+}
+
+.Foots {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  height: 90%;
+  width: 97%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  grid-template-areas: "F1 F2 F3";
+}
+
+.Foot2 {
+  grid-area: F2;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+
+  grid-template-areas:
+    "IC1 IC2 IC3"
+    "IC4 IC5 IC6";
+
+  justify-items: center;
+  align-items: center;
+}
+
+.Foot2 a img {
+  height: 50px;
+  width: 50px;
+  padding: 5px;
+  border-radius: 10px;
+  background-color: white;
+  box-shadow: 0 0 20px white;
+  transition: all 0.2s;
+  border: 3px solid black;
+}
+
+.Foot2 a img:hover {
+  height: 60px;
+  width: 60px;
+}
+
+#icon1:hover {
+  background-color: #2bb741;
+  box-shadow: 0 0 50px #2bb741;
+}
+#icon2:hover {
+  background-color: orangered;
+  box-shadow: 0 0 50px orangered;
+}
+
+#icon3:hover {
+  background-color: blueviolet;
+  box-shadow: 0 0 50px blueviolet;
+}
+#icon4:hover {
+  background-color: #229ed9;
+  box-shadow: 0 0 50px #229ed9;
+}
+#icon5:hover {
+  background-color: yellow;
+  box-shadow: 0 0 50px yellow;
+}
+#icon6:hover {
+  background-color: #1da1f2;
+  box-shadow: 0 0 50px #1da1f2;
+}
+
+.Foot3 {
+  grid-area: F3;
+}
+
+.Foot1 {
+  grid-area: F1;
+}
+
+.Foot1,
+.Foot3 {
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  font-size: 25px;
+}
+
+.Foot1 a,
+.Foot3 a {
+  text-decoration: none;
+  color: white;
+  font-family: var(--Font3);
+}
+
+.Foot1 p,
+.Foot3 p {
+  text-shadow: black 3px 2px 1px;
+}
+
+.Foot1,
+.Foot2,
+.Foot3 {
+  margin-top: 10px;
+}
+
+/******************************************************************************/
+
+footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+
+.autors{
+  color: white;
+  text-shadow: black 3px 2px 1px;
+  display: grid;
+  place-content: center;
+  width: 95%;
+  height: 80%;
+}
+
+.autors h5{
+  font-size: 15px;
+}

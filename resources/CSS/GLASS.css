@@ -1,0 +1,14 @@
+.FXglass{
+background: rgba(255,255, 255, 0.1);
+border-radius: 7px;
+backdrop-filter: blur(4px);
+box-shadow: 0 2px 30px 18px rgba(0, 0, 0, 0.9);
+}
+
+.FXglass2{
+/*background: rgba(134, 87, 0, 0.4);*/
+background: linear-gradient(180deg, rgba(170, 68, 0, 0.729), rgba(0, 0, 0, 0.816));
+border-radius: 7px;
+backdrop-filter: blur(4px);
+box-shadow: 0 2px 30px 18px rgba(0, 0, 0, 0.9);
+}
