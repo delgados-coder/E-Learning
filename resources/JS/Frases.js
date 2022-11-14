@@ -1,0 +1,16 @@
+let Frases=new Array()
+let Autor=new Array()
+Frases[0] = "El Café es un tipo de magia que puedes degustar.";
+Frases[1] = "Yo orquesto mis mañanas al son del café.";
+Frases[2] = "El café es un bálsamo para el corazón y el espíritu. ";
+Frases[3] = "El café huele a cielo recién molido.";
+Frases[4] = "No es que el café me de insomnio, es que me hace soñar despierto.";
+Autor[0] = "Catherynne M. Valente";
+Autor[1] = "Harry Mahtar"
+Autor[2] = "Giuseppe Verdi"
+Autor[3] = "Jessi Lane Adams"
+Autor[4] = "Anónimo"
+let Q = Frases.length;
+let numAleatorio=Math.round(Math.random()*(Q-1));
+document.write('<span class="frasespan">'+Frases[numAleatorio]+'</span>');
+document.write('<span class="autorspan"><i>'+Autor[numAleatorio]+'</i></span>');
